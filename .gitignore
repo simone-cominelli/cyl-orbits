@@ -9,3 +9,6 @@ simone*
 Uniform
 untitled*
 velocity*
+__pycache__/
+.ipynb_checkpoints/
+experiment_cube_distribution_displaced/

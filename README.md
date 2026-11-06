@@ -82,6 +82,13 @@ $$
 This approach makes it possible to investigate how first orbit losses can affect the standard Maxwellian distribution, in absence of frequent collissions (for time of the order of the cylotron period), and how they can result in anisotropy and flows.
 ## References
 
-The numerical approach for the action and frequency computation is based on the work of **Berk and Warnock**.
+The numerical approach employed for the computation of the action and frequency follows the method described by Berg and Warnock [1]. The twisted magnetic-field configuration is inspired by the reversed-shear magnetic equilibria studied by Ogawa et al. [2] and the self-consistent Vlasov–Maxwell equilibrium developed by Cordonnier et al. [3].
 
-The twisted magnetic field configuration is related to the self-consistent equilibrium discussed in the work of **X. Leoncini et al.**
+References
+
+[1] J. S. Berg and R. L. Warnock, "A Code to Compute the Action-Angle Transformation for a Particle in an Arbitrary Potential Well," Proceedings of the 1995 Particle Accelerator Conference (PAC 1995).
+
+[2] S. Ogawa, B. Cambon, X. Leoncini, M. Vittot, D. del Castillo-Negrete, G. Dif-Pradalier, and X. Garbet, "Full Particle Orbit Effects in Regular and Stochastic Magnetic Fields," Physics of Plasmas, 23, 072506 (2016). doi.org/10.1063/1.4958653
+
+[3] A. Cordonnier, X. Leoncini, G. Dif-Pradalier, and X. Garbet, "Full self-consistent Vlasov-Maxwell solution," Physical Review E, 106, 064209 (2022). doi.org/10.1103/PhysRevE.106.064209
+

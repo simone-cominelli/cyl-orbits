@@ -27,7 +27,8 @@ def Newton_root(f, q_0, tol, max_iter):
         if abs(q_new - q) < tol:
             return q_new
         q = q_new
-    raise ValueError("Newton's method did not converge within the maximum number of iterations.")
+    return np.nan
+    #raise ValueError("Newton's method did not converge within the maximum number of iterations.")
 
 def root_guess(f, qmin, qmax, Nq):
     # sample [qmin, qmax] in many points
@@ -286,7 +287,7 @@ class Trajectories:
     return np.array(om)
 
   def df(self):
-      return  pd.DataFrame( {key: self.__dict__[key] for key in ['x1','x2','E','label', 'J', 'omega']} , index=self.index )
+      return  pd.DataFrame( {key: self.__dict__[key] for key in list(self.__dict__)} , index=self.index )
 
 # Class Pushers :: method to evolve the trajectory in time
 
